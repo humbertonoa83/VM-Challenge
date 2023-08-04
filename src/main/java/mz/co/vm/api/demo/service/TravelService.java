@@ -131,7 +131,7 @@ public class TravelService {
 		
 		double weather = getWeather(cityName, city);
 		//From Kelvin to Celcius
-		city.setWeather(weather - 173.15);
+		city.setWeather(weather - 273.15);
 		
 		double gdp = getGDP(city);
 		city.setGdp(gdp);
